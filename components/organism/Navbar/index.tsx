@@ -8,10 +8,10 @@ import ToggleMenu from "./ToggleMenu";
 export default function index() {
   return (
     <section>
-      <nav className="relative  w-full ">
+      <nav className="relative  w-full cursor-all-scroll:fixed ">
         <div className="px-5 py-2 flex  flex-row justify-between bg-pink-300/0">
           <a
-            className="text-2xl font-bold h-fit my-auto text-white tracking-wider"
+            className="text-[2.5rem] font-bold h-fit my-auto text-white tracking-wider"
             href="#"
           >
             Beauty me

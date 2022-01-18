@@ -14,7 +14,7 @@ export default function MenuMobile() {
   return (
     <div className={classTitle}>
       <MenuItem title="Home" />
-      <MenuItem title="Why ?" href="/games" />
+      <MenuItem title="Why ?" href="#" />
       <MenuItem title="Product" />
       <MenuItem title="Testimoni" />
     </div>

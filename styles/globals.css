@@ -18,3 +18,16 @@
                cursor-pointer;
   }
 }
+
+.spacer {
+  aspect-ratio: 800/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("../public/img/waves.svg");
+  transform: rotate(180deg);
+}
