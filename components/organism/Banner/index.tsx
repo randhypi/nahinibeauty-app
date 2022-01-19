@@ -25,7 +25,12 @@ export default function index() {
         </div>
 
         <div className="w-full h=full py-5  text-center">
-          <Image src="/img/banner-img 1.svg" width={600} height={400} />
+          <Image
+            src="/img/banner-img 1.svg"
+            priority={true}
+            width={600}
+            height={400}
+          />
         </div>
       </div>
     </>

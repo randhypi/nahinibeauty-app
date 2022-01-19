@@ -11,17 +11,21 @@
 
 @layer components {
   .menuMobile {
-    @apply drop-shadow-2xl shadow-pink-600 w-5/6  absolute overflow-hidden top-[50px] right-[40px]  pb-5 rounded-br-full rounded-tl-full rounded-bl-full flex flex-col  justify-items-center border-2 bg-gradient-to-r from-pink-500 to-orange-500 md:hidden lg:hidden;
+    @apply drop-shadow-2xl shadow-pink-600 w-5/6  absolute overflow-hidden top-[50px] right-[40px]  pb-0 rounded-br-full rounded-tl-full rounded-bl-full flex flex-col  justify-items-center border-2 bg-gradient-to-r from-pink-500 to-orange-500 md:hidden lg:hidden;
   }
 
   .menu {
-    @apply hidden md:w-fit md:h-full md:my-auto md:flex-row md:flex md:rounded-none  md:bg-pink-200/0  md:justify-between md:top-0 md:pb-0;
+    @apply hidden md:w-fit md:h-full  md:my-auto md:flex-row md:flex md:rounded-none  md:bg-pink-200/0  md:justify-between md:top-0 md:pb-0;
   }
 
   .menuItem {
     @apply font-Poppins mx-auto md:h-full w-fit tracking-widest  py-5 px-5 text-center text-xl text-white font-semibold  md:hover:bg-pink-400 md:hover:rounded-xl
                transition-all duration-500 ease-linear
                cursor-pointer;
+  }
+
+  .border-custom-gradient {
+    @apply bg-gradient-to-r from-pink-500 to-orange-500;
   }
 }
 
