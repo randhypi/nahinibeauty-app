@@ -8,6 +8,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       Poppins: ["Poppins", "sans-serife"],
+      Merriweather: ["Merriweather", "serif"],
+      Roboto:["Roboto", "sans-serif"]
     },
   },
   plugins: [],

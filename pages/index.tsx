@@ -1,11 +1,9 @@
 import type { NextPage } from "next";
-import Image from "next/image";
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import { AppContext } from "../context/app-context";
 import Navbar from "../components/organism/Navbar";
 import { useEffect, useState } from "react";
 import Header from "../components/organism/Header";
+import Why from "../components/organism/Why";
 
 const Home: NextPage = () => {
   const [menuValue, setMenuValue] = useState(false);
@@ -33,6 +31,7 @@ const Home: NextPage = () => {
         <Header>
           <Navbar />
         </Header>
+        <Why />
       </AppContext.Provider>
     </>
   );
