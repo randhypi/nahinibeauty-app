@@ -9,7 +9,7 @@ export default function index() {
     speed: 500,
     arrows: false,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
       {
@@ -34,7 +34,7 @@ export default function index() {
         settings: {
           className: "center",
           centerMode: true,
-          centerPadding: "80px",
+          centerPadding: "60px",
           slidesToShow: 1,
           slidesToScroll: 1,
         },

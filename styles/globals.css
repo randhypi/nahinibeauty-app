@@ -29,11 +29,18 @@
   }
 
   .title {
-    @apply text-pink-600 uppercase text-[1.7rem] font-Poppins font-bold mx-auto w-fit my-5  underline underline-offset-8;
+    @apply text-center text-pink-600 uppercase text-[1.7rem] font-Poppins font-bold mx-auto w-fit my-5  underline underline-offset-8;
   }
 
   .sub-title {
     @apply text-orange-500 text-[2rem] font-Poppins font-semibold mx-auto text-center w-fit;
+  }
+  .slick-slide div {
+    margin: 0 auto 0 auto;
+  }
+
+  .slick-slider {
+    @apply flex flex-row gap-x-2 !important;
   }
 }
 
@@ -49,8 +56,4 @@
 .layer1 {
   background-image: url("/img/waves.svg");
   transform: rotate(180deg);
-}
-
-.slick-slide div {
-  margin: 0 auto 0 auto;
 }

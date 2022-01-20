@@ -35,7 +35,7 @@ export default function index() {
         settings: {
           className: "center",
           centerMode: true,
-          centerPadding: "80px",
+          centerPadding: "60px",
           slidesToShow: 1,
           slidesToScroll: 1,
         },
@@ -46,9 +46,7 @@ export default function index() {
     <>
       <div className="h-auto w-full px-5 py-6 bg-white">
         <div className="flex flex-col gap-y-4">
-          <p className=" text-pink-600 uppercase text-[1.7rem] font-Poppins font-bold mx-auto w-fit my-5  underline underline-offset-8">
-            Benefits and Advantages
-          </p>
+          <p className="title">Benefits and Advantages</p>
           <p className="sub-title">
             Ini Manfaat jika anda menggunakan produk kami
           </p>
