@@ -44,7 +44,7 @@ export default function index() {
   };
   return (
     <>
-      <div className="h-auto w-full px-5 bg-white">
+      <div className="h-auto w-full px-5 py-6 bg-white">
         <div className="flex flex-col gap-y-4">
           <p className=" text-pink-600 uppercase text-[1.7rem] font-Poppins font-bold mx-auto w-fit my-5  underline underline-offset-8">
             Benefits and Advantages

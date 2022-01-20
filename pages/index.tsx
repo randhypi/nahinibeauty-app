@@ -6,27 +6,24 @@ import Header from "../components/organism/Header";
 import Why from "../components/organism/Why";
 import Promo from "../components/organism/Promo";
 import Produk from "../components/organism/Produk";
+import {
+  useWindowSize,
+  useWindowWidth,
+  useWindowHeight,
+} from "@react-hook/window-size";
 
 const Home: NextPage = () => {
   const [menuValue, setMenuValue] = useState(false);
-
-  function useWindowSize() {
-    const [size, setSize] = useState([window.innerWidth, window.innerHeight]);
-    useEffect(() => {
-      const handleResize = () => {
-        setSize([window.innerWidth, window.innerHeight]);
-      };
-      window.addEventListener("resize", handleResize);
-    }, []);
-
-    return size;
-  }
+  const [width, height] = useWindowSize();
 
   const appContextValue = {
     menuValue,
     setMenuValue,
     useWindowSize,
+    width,
+    height,
   };
+
   return (
     <>
       <AppContext.Provider value={appContextValue}>
