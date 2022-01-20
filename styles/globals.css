@@ -32,8 +32,8 @@
     @apply text-pink-600 uppercase text-[1.7rem] font-Poppins font-bold mx-auto w-fit my-5  underline underline-offset-8;
   }
 
-  .sub-title{
-    @apply text-orange-500 text-[2rem] font-Poppins font-semibold mx-auto text-center w-fit
+  .sub-title {
+    @apply text-orange-500 text-[2rem] font-Poppins font-semibold mx-auto text-center w-fit;
   }
 }
 
@@ -47,7 +47,7 @@
 }
 
 .layer1 {
-  background-image: url("../public/img/waves.svg");
+  background-image: url("/img/waves.svg");
   transform: rotate(180deg);
 }
 
