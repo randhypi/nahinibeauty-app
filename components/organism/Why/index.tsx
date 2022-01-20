@@ -47,9 +47,9 @@ export default function index() {
       <div className="h-auto w-full px-5 bg-white">
         <div className="flex flex-col gap-y-4">
           <p className=" text-pink-600 uppercase text-[1.7rem] font-Poppins font-bold mx-auto w-fit my-5  underline underline-offset-8">
-            Produk
+            Benefits and Advantages
           </p>
-          <p className="text-orange-500 text-[2rem] font-Poppins font-semibold mx-auto text-center w-fit ">
+          <p className="sub-title">
             Ini Manfaat jika anda menggunakan produk kami
           </p>
           <p className="tex-Poppins text-md  mx-5 text-center md:mx-20 ">
