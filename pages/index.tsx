@@ -11,10 +11,13 @@ import {
   useWindowWidth,
   useWindowHeight,
 } from "@react-hook/window-size";
+import useScrollPosition from "@react-hook/window-scroll";
+import Testimoni from "../components/organism/Testimoni";
 
 const Home: NextPage = () => {
   const [menuValue, setMenuValue] = useState(false);
   const [width, height] = useWindowSize();
+  const scrollY = useScrollPosition(60 /*fps*/);
 
   const appContextValue = {
     menuValue,
@@ -22,6 +25,7 @@ const Home: NextPage = () => {
     useWindowSize,
     width,
     height,
+    scrollY,
   };
 
   return (
@@ -35,6 +39,7 @@ const Home: NextPage = () => {
         <Promo />
         <Promo />
         <Produk />
+        <Testimoni />
       </AppContext.Provider>
     </>
   );

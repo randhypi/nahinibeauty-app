@@ -17,7 +17,7 @@ export default function index() {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -26,16 +26,13 @@ export default function index() {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          className: "center",
-          centerMode: true,
-          centerPadding: "60px",
           slidesToShow: 1,
           slidesToScroll: 1,
         },
@@ -44,7 +41,7 @@ export default function index() {
   };
   return (
     <>
-      <div className="h-auto w-full px-5 py-6 bg-white">
+      <div className="h-auto w-full px-5 py-6 bg-white" id="why">
         <div className="flex flex-col gap-y-4">
           <p className="title">Benefits and Advantages</p>
           <p className="sub-title">

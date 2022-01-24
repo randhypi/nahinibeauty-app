@@ -13,10 +13,10 @@ export default function MenuMobile() {
   });
   return (
     <div className={classTitle}>
-      <MenuItem title="Home" />
-      <MenuItem title="Why ?" href="#" />
-      <MenuItem title="Product" />
-      <MenuItem title="Testimoni" />
+      <MenuItem title="Home" href="#banner" />
+      <MenuItem title="Why ?" href="#why" />
+      <MenuItem title="Product" href="#produk" />
+      <MenuItem title="Testimoni" href="#testimoni" />
     </div>
   );
 }
