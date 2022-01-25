@@ -13,6 +13,7 @@ import {
 } from "@react-hook/window-size";
 import useScrollPosition from "@react-hook/window-scroll";
 import Testimoni from "../components/organism/Testimoni";
+import SayInTouch from "../components/organism/SayInTouch";
 
 const Home: NextPage = () => {
   const [menuValue, setMenuValue] = useState(false);
@@ -40,6 +41,7 @@ const Home: NextPage = () => {
         <Promo />
         <Produk />
         <Testimoni />
+        <SayInTouch />
       </AppContext.Provider>
     </>
   );

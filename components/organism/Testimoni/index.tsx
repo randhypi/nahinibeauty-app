@@ -24,7 +24,7 @@ export default function index() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
         },
@@ -41,18 +41,18 @@ export default function index() {
   return (
     <>
       <div
-        className="flex flex-col md:w-fullh-fit  md:overflow-hidden "
+        className="flex flex-col md:w-fullh-fit  md:overflow-hidden pb-20"
         id="testimoni"
       >
         <div className="flex flex-col w-full md:h-full  bg-gradient-to-r from-pink-500 to-orange-500 ">
-          <div className=" my-auto mx-auto w-full pt-20">
+          <div className=" my-auto mx-auto w-full pt-[100px] pb-20">
             <p className="title-white">Testimoni</p>
             <p className="sub-title-white">Apa kata mereka ?</p>
           </div>
 
           <div className=" spacer-triangle layer1-triangle"></div>
         </div>
-        <div className="w-full w-full  md:h-[100%] md:py-0  mt-[-30px] justify-items-center ">
+        <div className="w-full w-full  md:h-[100%] md:py-0  mt-[-10px] justify-items-center ">
           <Slider {...settings}>
             <Card />
             <Card />
